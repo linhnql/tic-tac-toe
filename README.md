@@ -1,2 +1,3 @@
 # Tic - toc - toe
-FS01 - Tr
+
+FS01 - Training
