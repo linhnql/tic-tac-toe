@@ -1,6 +1,7 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  margin-top:40px;
+  margin-left: 400px;
 }
 
 ol, ul {
@@ -51,6 +52,10 @@ ol, ul {
   font-size: 20px;
 }
 
+.game-info.status{
+  font-size: 30px;
+}
+
 button{
   font-size: 20px;
   margin-top: 10px;
@@ -60,6 +65,6 @@ button{
   background-color: yellow;
 }
 
-.final_step{
-  background-color: red;
+.square.highlight{
+  background: red;
 }

@@ -1,15 +1,12 @@
 import React from "react";
 
 function Square(props) {
-  const winningSquareStyle = {
-    backgroundColor: '#ccc'
-  };
+  const className = 'square' + (props.highlight || props.currentSquare ? ' highlight' : '');
 
   return (
     <button
-      className="square"
+      className= {className}
       onClick={props.onClick}
-      style={props.win_square ? winningSquareStyle : null}
     >
       {props.value}
     </button>
