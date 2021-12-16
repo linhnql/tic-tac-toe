@@ -122,13 +122,14 @@ class App extends React.Component {
     return (
       <div className="game">
         <div className="game-board">
-          <Board
-            squares={current.squares}
-            onClick={(i) => this.handleClick(i)}
-            winLine={winInfor.line}
-            currentSquare={current.lastMoveSquare}
-            className="game-board nb"
-          />
+          <div className="game-main">
+            <Board
+              squares={current.squares}
+              onClick={(i) => this.handleClick(i)}
+              winLine={winInfor.line}
+              currentSquare={current.lastMoveSquare}
+            />
+          </div>
           <button onClick={() => this.toggleSort()}>Toggle Sort Order</button>
         </div>
         <div className="game-info">
