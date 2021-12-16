@@ -60,6 +60,7 @@ ol, ul {
 
 .game-info.status{
   font-size: 30px;
+  margin-left: 5px;
 }
 
 button{
